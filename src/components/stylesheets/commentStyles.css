@@ -1,0 +1,22 @@
+.oneComment {
+    padding: 10px;
+}
+
+.oneComment h3 {
+    margin: 0;
+    display: inline-block;
+}
+
+.oneComment h5 {
+    display: inline-block;
+    font-weight: normal;
+    margin: 0;
+}
+
+.oneComment p {
+    margin: 0;
+}
+
+.commentLikeButton {
+    cursor: pointer;
+}

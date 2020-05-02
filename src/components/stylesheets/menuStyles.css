@@ -1,0 +1,32 @@
+#oneMenu {
+    position: fixed;
+    top: 14%;
+    left: -50%;
+    background-color: #e8e8e8;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: black;
+    border-style: solid;
+    border-color: #40e0d0;
+    border-width: 2px;
+}
+
+.menuList {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: 0;
+}
+
+.menuList li {
+    padding: 10px 100px 10px 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.menuList li:hover {
+    background-color: #f5f5f5;
+}
+
+.menuTitle {
+    margin: 5px;
+}

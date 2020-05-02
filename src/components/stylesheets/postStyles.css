@@ -1,0 +1,109 @@
+.onePost {
+    /* display: grid;
+grid-template-columns: 25px 500px;
+grid-gap: 10px; */
+    margin: 20px;
+    background-color: #e8e8e8;
+    /* border-radius: 3%; */
+    width: 540px;
+}
+
+.postPhoto {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* .postArrows {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+} */
+
+/* .postArrows i {
+    display: block;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.arrowUp {
+    margin: 5px auto 3px auto;
+}
+
+.arrowDown {
+    margin: 5px auto auto auto;
+} */
+
+.postContentBody p {
+    margin: 0;
+    width: 400px;
+}
+
+.postContentBody h3 {
+    margin: 0;
+    display: inline-block;
+}
+
+.postContentBody h5 {
+    display: inline-block;
+    color: #303030;
+    font-weight: normal;
+    margin: 0;
+}
+
+.expandButton {
+    padding: 10px 12px 10px 12px;
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+    vertical-align: top;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.expandButton:hover {
+    background-color: #f5f5f5;
+}
+
+.spamButton:active {
+    color: red;
+}
+
+.postContentBody {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px auto 5px auto;
+}
+
+.postButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    grid-gap: 5px;
+}
+
+.postButton {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    /* //padding-bottom: 10px; */
+}
+
+.postButton p {
+    display: inline;
+}
+
+.postButton:hover {
+    background-color: #f5f5f5;
+}
+
+.postGap {
+    width: 10px;
+    display: inline-block;
+}
